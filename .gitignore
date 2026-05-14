@@ -35,9 +35,7 @@ yarn-error.log*
 .env.local
 .env.*.local
 
-# PWA generated files
-public/sw.js
-public/sw.js.map
+# PWA workbox generated files (sw.js is hand-written, keep it)
 public/workbox-*.js
 public/workbox-*.js.map
 
